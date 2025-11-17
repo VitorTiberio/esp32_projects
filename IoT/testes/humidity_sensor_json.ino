@@ -5,8 +5,8 @@
 #include <DHT.h>
 
 // Configuração do Wi-fi // 
-const char* ssid = "TIBERIO 2.4G";      
-const char* password = "Palio@1996"; 
+const char* ssid = "XXXXXXX";      
+const char* password = "XXXXXXX"; 
 
 // Configurando o DHT11 
 #define DHTPIN 4       // Pino conectado ao DATA do sensor
