@@ -1,6 +1,6 @@
 # Projects using ESP-32 # 
 
-Hello! This is my repository from my ESP32 projects! 
+Hello! My name is Vitor Augusto Tibério. I'm an undergraduate student in Electrical Engineering at University of São Paulo (USP). This is my repository from my ESP32 projects! 
 
 To acesses the informations, click on the link below: 
 * Portuguese Version: Click Here
