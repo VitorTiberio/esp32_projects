@@ -1,9 +1,15 @@
+## Autor: Vitor Augusto Tibério - Estudante de Engenharia Elétrica - USP São Carlos ## 
+
+## Projeto - Gerador CA Integrado à IoT
+
+## Importando as Bibliotecas ## 
+
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import requests
 from datetime import datetime
 
-# --- CONFIGURAÇÕES ---
+# Configurações da Rede 
 URL_ESP32 = "http://192.168.18.47/dados" # puder mudar, caso a rede de internet altere
 # Tensão Alvo (Linha Verde)
 TENSAO_ALVO = 1.0  
