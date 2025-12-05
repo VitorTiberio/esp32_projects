@@ -1,4 +1,6 @@
-// Blink Test -- ESP 32 // 
+// Autor: Vitor Augusto Tibério - Engenharia Elétrica - USP São Carlos // 
+
+// Blink Test - ESP 32 // 
 
 int ledPin = 2; 
 
