@@ -9,7 +9,6 @@
 # define LED 21
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(115200);
   pinMode(TRIGGER, OUTPUT);
   pinMode(ECHO, INPUT);
@@ -26,7 +25,7 @@ void loop() {
   // Calcula a distância do ultrassônico //
   long duration = pulseIn(ECHO, HIGH);
   float distanceCm = duration * 0.0343 / 2.0;
-  // Lê (serialmente) a leitura do sensor //
+  // Lê (serialmente) o sensor //
   Serial.print("Distancia: ");
   Serial.print(distanceCm);
   Serial.println(" cm");
