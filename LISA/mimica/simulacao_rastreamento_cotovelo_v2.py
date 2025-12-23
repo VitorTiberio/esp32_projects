@@ -27,10 +27,10 @@ landmarker = PoseLandmarker.create_from_options(options)
 # Configuração da WebCam
 cap = cv2.VideoCapture(0)
 
-# Controle
+# Controle de referências
 calibrado = False
 angulo_humano_ref = 0.0
-angulo_filtrado = 0.0   # agora começa em 0°
+angulo_filtrado = 0.0  
 
 SERVO_MIN = 0
 SERVO_MAX = 150
