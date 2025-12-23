@@ -1,8 +1,10 @@
 // Autor: Vitor Augusto Tibério - Estudante de Engenharia Elétrica - USP São Carlos // 
 // Contato: vitortiberio@usp.br
 
+// Importando as Bibliotecas // 
 #include <ESP32Servo.h>
 
+// Definição usando o objeto Servo //
 Servo servoBraco;
 const int pinoServo = 13;
 
